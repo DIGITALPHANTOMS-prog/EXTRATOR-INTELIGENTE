@@ -1,0 +1,17 @@
+{
+  "name": "cpf-checker-recaptcha",
+  "version": "1.0.0",
+  "description": "Verificador de CPF com resolução de reCAPTCHA invisível",
+  "main": "vale_play_clickforce_recaptcha.js",
+  "scripts": {
+    "start": "node vale_play_clickforce_recaptcha.js lista.txt",
+    "install": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.40.1",
+    "axios": "^1.6.2"
+  },
+  "keywords": ["cpf", "checker", "recaptcha", "2captcha", "proxy"],
+  "author": "",
+  "license": "ISC"
+}
